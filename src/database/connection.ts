@@ -13,4 +13,4 @@ const createConnection = async () => {
 	return client;
 };
 
-export { createConnection };
+export default createConnection;

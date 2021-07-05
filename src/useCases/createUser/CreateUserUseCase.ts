@@ -11,15 +11,12 @@ class CreateUserUseCase {
 	constructor(private usersRepository: IUserRepositories) {}
 
 	async execute({ name, email, password }: CreateUserDTO) {
-		let user = new User();
+		let user = new User(name, password, email);
 		user = Object.assign({
 			...user,
-			name,
-			email,
-			password,
 		});
 
-		await this.usersRepository.create(user);
+		return await this.usersRepository.create(user);
 	}
 }
 

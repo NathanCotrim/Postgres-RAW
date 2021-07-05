@@ -2,14 +2,16 @@ import { v4 as uuid } from 'uuid';
 import { hashSync } from 'bcryptjs';
 
 class User {
-	readonly id: string;
+	id: string;
 	name: string;
 	email: string;
-	password: string;
+	password?: string | null;
 
-	constructor() {
+	constructor(name: string, email: string, password: string) {
 		this.id = uuid();
-		this.password = hashSync(this.password, 12);
+		this.password = hashSync(password);
+		this.name = name;
+		this.email = email;
 	}
 }
 

@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 
-import { createConnection } from './connection';
+import createConnection from './connection';
 
 (async () => {
 	const client = await createConnection();
