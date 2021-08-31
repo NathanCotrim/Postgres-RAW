@@ -3,7 +3,6 @@
   <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" width="250px" height="250px">
 </p>
 
-<br>
 <hr>
 <br>
 
