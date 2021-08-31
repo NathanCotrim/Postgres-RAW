@@ -9,7 +9,9 @@
     "revert-migrations": "npx ts-node src/database/revertMigrations.ts"
   },
   "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
     "@types/express": "^4.17.12",
+    "@types/pg": "^8.6.1",
     "@types/uuid": "^8.3.0",
     "@typescript-eslint/eslint-plugin": "^4.28.1",
     "@typescript-eslint/parser": "^4.28.1",
@@ -26,8 +28,6 @@
     "typescript": "^4.3.5"
   },
   "dependencies": {
-    "@types/bcryptjs": "^2.4.2",
-    "@types/pg": "^8.6.0",
     "express": "^4.17.1",
     "pg": "^8.6.0",
     "uuid": "^8.3.2"
