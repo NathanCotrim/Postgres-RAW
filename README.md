@@ -1,6 +1,5 @@
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png" width="250px" height="250px">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" width="250px" height="250px">
 </p>
 
 <hr>
