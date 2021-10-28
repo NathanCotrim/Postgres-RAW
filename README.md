@@ -28,9 +28,8 @@ npm install
 <br>
 
 ## Usage <a name = "usage"></a>
-<br>
 
-### With Postgres running in your machine, you can configure it on: src/database/connection.ts!
+With Postgres running in your machine, you can configure it on: src/database/connection.ts!
 <br>
 
 ### To run all migrations and create the tables, just run:
